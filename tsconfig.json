@@ -10,7 +10,24 @@
     "experimentalDecorators": true,
     "jsx": "react",
     "jsxFactory": "tsx",
-    "types": ["@arcgis/core/interfaces.d.ts", "@esri/calcite-components"]
+    "types": [
+      "@arcgis/core/interfaces.d.ts",
+      "@arcgis/lumina",
+      "@arcgis/toolkit/dist/array/index.d.ts",
+      "@arcgis/toolkit/dist/dom/index.d.ts",
+      "@arcgis/toolkit/dist/error/index.d.ts",
+      "@arcgis/toolkit/dist/function/index.d.ts",
+      "@arcgis/toolkit/dist/intl/index.d.ts",
+      "@arcgis/toolkit/dist/number/index.d.ts",
+      "@arcgis/toolkit/dist/predicate/index.d.ts",
+      "@arcgis/toolkit/dist/promise/index.d.ts",
+      "@arcgis/toolkit/dist/string/index.d.ts",
+      "@arcgis/toolkit/dist/type/index.d.ts",
+      "@arcgis/toolkit/dist/url/index.d.ts",
+      "@esri/calcite-components",
+      "luxon",
+      "marked"
+    ]
   },
   "include": ["src/**/*"]
 }
